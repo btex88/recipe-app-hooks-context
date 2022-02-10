@@ -1,0 +1,35 @@
+@keyframes spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+
+  0%, 100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.65;
+  }
+}
+
+.spinner {
+  animation: spin 3s linear infinite , pulse 1.5s ease-in-out infinite;
+  height: 18rem;
+  object-fit: contain;
+  width: 18rem;
+}
+
+.label {
+  animation: pulse 1.5s ease-in-out infinite;
+  color: #92400e;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
