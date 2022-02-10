@@ -25,8 +25,12 @@ import HorizontalCardsContainer from './horizontal-cards-container';
 import ExploreFoodsDrinksButtons from './explore-foods-drinks-buttons';
 import IngredientsList from './explore-ingredients-list';
 import NationalitiesDropdown from './nationalities-dropdown';
+import NationalitiesTitle from './nationalities-title';
+import ExploreNationalityButton from './explore-nationality-button';
 
 export {
+  ExploreNationalityButton,
+  NationalitiesTitle,
   NationalitiesDropdown,
   IngredientsList,
   ExploreFoodsDrinksButtons,

@@ -3,10 +3,13 @@ import * as COMP from '../components';
 import GlobalContext from '../context/global-context';
 
 export default function FoodsByNationalities() {
-  const { displaySearchButton, setDisplaySearchButton } = useContext(GlobalContext);
+  const { displaySearchButton,
+    setDisplaySearchButton,
+    setSelectedNationality } = useContext(GlobalContext);
 
   useEffect(() => {
     setDisplaySearchButton(true);
+    setSelectedNationality('All');
   }, []);
 
   return (
@@ -18,7 +21,7 @@ export default function FoodsByNationalities() {
         />
         <COMP.GradientBar type="b" />
       </div>
-      <div className="w-full h-full flex flex-col items-center justify-center py-16">
+      <div className="w-full h-full flex flex-col items-center justify-center py-20">
         <COMP.NationalitiesDropdown />
       </div>
       <div className="w-full h-14 flex flex-col items-center fixed bottom-0">

@@ -22,6 +22,7 @@ export default function GlobalProvider({ children }) {
   const [shouldReload, setShouldReload] = useState(false);
   const [ingredientList, setIngredientList] = useState(null);
   const [nationalityList, setNationalityList] = useState(null);
+  const [selectedNationality, setSelectedNationality] = useState('All');
 
   const value = {
     displaySearchBar,
@@ -62,6 +63,8 @@ export default function GlobalProvider({ children }) {
     setIngredientList,
     nationalityList,
     setNationalityList,
+    selectedNationality,
+    setSelectedNationality,
   };
   return (
     <GlobalContext.Provider value={ value }>{children}</GlobalContext.Provider>
