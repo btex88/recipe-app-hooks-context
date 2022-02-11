@@ -5,6 +5,13 @@ Project developed in ReactJS with Hooks, ContextAPI and TailwindCSS.
 - This project was developed as an end of module project at Trybe School.
 - The main goal was to train our skills in ReactJS, work with functional components, ContextAPI and Hooks.
 
+### Main concepts used in this project were:
+- Divide every function, functionality or element into components to better arrange and segment the code.
+- Main usage of "global states" using Context as a main state manager, transform local states into global ones.
+- Use of CSS frameworks to help the development and improve the appealingness, in this case I've used TailwindCSS.
+- Develop your logic into a ```src/assets/helpers``` folder and ```src/assets/services```.
+- Name all folders and files in __```kebab-case```__, JSX components in __```PascalCase```__ and JS functions in __```cammelCase```__.
+
 ## Links of features, dependencies, images, frameworks used in this app so far.
 - [TailwindCSS v3 Documentation](https://tailwindcss.com/docs/installation)
 
