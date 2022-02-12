@@ -31,7 +31,7 @@ Project developed in ReactJS with Hooks, ContextAPI and TailwindCSS.
 ## How to clone it and make it run?
 
 - First thing is to clone the repository into your machine.
-- Than you need to enter the root folder of the project and run in your terminal the folowing: **```npm install```**
+- Then you need to enter the root folder of the project and run in your terminal the folowing: **```npm install```**
 - After this process is done, just need to run **```npm start```** and your ready to go.
 
 ## Vercel deployment
